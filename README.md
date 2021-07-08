@@ -32,7 +32,7 @@ console.log(convert("Hello World!"))
 
 👤 **Snarr**
 
-* Website: https://www.linkedin.com/in/Snarr/
+* LinkedIn: https://www.linkedin.com/in/Snarr/
 * Github: [@Snarr](https://github.com/Snarr)
 
 ## 🤝 Contributing
