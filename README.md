@@ -7,7 +7,7 @@
     <img alt="npm" src="https://img.shields.io/npm/dt/discord-emoji-convert">
   </a>
   <a href="https://github.com/Snarr/discord-emoji-convert/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Snarr/discord-emoji-convert" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/Snarr/discord-emoji-convert" />
   </a>
 </p>
 
