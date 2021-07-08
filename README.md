@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to discord-emoji-convert 👋</h1>
+# discord-emoji-convert
 <p>
   <a href="https://www.npmjs.com/package/discord-emoji-convert" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/discord-emoji-convert.svg">
@@ -11,7 +11,7 @@
   </a>
 </p>
 
-> A very simple text to emoji converter for Discord
+> A very simple text to emoji converter for Discord bots
 
 ### 🏠 [Homepage](https://github.com/Snarr/discord-emoji-convert#readme)
 
