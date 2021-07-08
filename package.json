@@ -16,7 +16,7 @@
     "convert"
   ],
   "author": "Snarr",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Snarr/discord-emoji-convert/issues"
   },
