@@ -23,9 +23,15 @@ npm install discord-emoji-convert
 
 ## Usage
 
+Takes string argument and returns a converted string of Discord emojis.
+
 ```js
 const { convert } = require("discord-emoji-convert")
 console.log(convert("Hello World!"))
+```
+
+```sh
+:regional_indicator_h: :regional_indicator_e: :regional_indicator_l: :regional_indicator_l: :regional_indicator_o: :regional_indicator_w: :regional_indicator_o: :regional_indicator_r: :regional_indicator_l: :regional_indicator_d: :exclamation:
 ```
 
 ## Author
