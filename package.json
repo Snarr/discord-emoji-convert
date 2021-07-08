@@ -1,0 +1,24 @@
+{
+  "name": "discord-emoji-convert",
+  "version": "2.0.0",
+  "description": "A very simple text to emoji converter for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snarr/discord-emoji-convert"
+  },
+  "keywords": [
+    "discord",
+    "emoji",
+    "convert"
+  ],
+  "author": "Snarr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snarr/discord-emoji-convert/issues"
+  },
+  "homepage": "https://github.com/Snarr/discord-emoji-convert#readme"
+}
