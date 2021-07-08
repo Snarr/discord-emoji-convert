@@ -52,7 +52,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Snarr](https://github.com/Snarr).<br />
-This project is [ISC](https://github.com/Snarr/discord-emoji-convert/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/Snarr/discord-emoji-convert/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
