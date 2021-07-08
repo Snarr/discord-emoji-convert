@@ -22,6 +22,8 @@ exports.convert = (input) => {
       emojiText = `:regional_indicator_${rawCharacter}:`;
     } else if (rawCharacter.match(/[0-9]/i)) {
       emojiText = `:${num_words[parseInt(rawCharacter)]}:`;
+    } else if (rawCharacter === ' ') {
+      emojiText = `  `
     } else {
       let symbol = symbolTable[rawCharacter];
       if (!symbol) continue;
