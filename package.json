@@ -1,6 +1,6 @@
 {
   "name": "discord-emoji-convert",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A very simple text to emoji converter for Discord",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,11 @@
   "keywords": [
     "discord",
     "emoji",
-    "convert"
+    "convert",
+    "big",
+    "text",
+    "large",
+    "bot"
   ],
   "author": "Snarr",
   "license": "MIT",
