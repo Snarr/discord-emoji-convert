@@ -2,14 +2,14 @@ let num_words = ['zero','one','two','three','four',
 'five','six','seven','eight','nine'];
 
 let symbolTable = {
-  "!": ':exclamation:',
-  "?": ':question:',
-  "+": ":heavy_plus_sign:",
-  "-": ":heavy_minus_sign:",
-  "×": ":heavy_multiplication_x:",
-  "*": ":asterisk:",
-  "$": ":heavy_dollar_sign:",
-  "/": ":heavy_division_sign:"
+  "!": 'exclamation',
+  "?": 'question',
+  "+": "heavy_plus_sign",
+  "-": "heavy_minus_sign",
+  "×": "heavy_multiplication_x",
+  "*": "asterisk",
+  "$": "heavy_dollar_sign",
+  "/": "heavy_division_sign"
 };
 
 exports.convert = (input) => {
@@ -19,17 +19,19 @@ exports.convert = (input) => {
     let rawCharacter = input.substring(i, i+1);
     let emojiText = '';
     if (rawCharacter.match(/[a-z]/i)) {
-      emojiText = `:regional_indicator_${rawCharacter}:`;
+      emojiText = `regional_indicator_${rawCharacter}`;
     } else if (rawCharacter.match(/[0-9]/i)) {
-      emojiText = `:${num_words[parseInt(rawCharacter)]}:`;
-    } else if (rawCharacter === ' ') {
-      emojiText = `  `
-    } else {
+      emojiText = `${num_words[parseInt(rawCharacter)]}`;
+    } else if (rawCharacter !== ' ') {
       let symbol = symbolTable[rawCharacter];
       if (!symbol) continue;
       emojiText = symbol;
+    } else {
+      finalString += `   `;
+      continue;
     }
-    finalString += `${emojiText} `;
+
+    finalString += `:${emojiText}: `;
   }
   return finalString.trimEnd()
 }
