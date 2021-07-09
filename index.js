@@ -1,7 +1,7 @@
-let num_words = ['zero','one','two','three','four',
+let numWords = ['zero','one','two','three','four',
 'five','six','seven','eight','nine'];
 
-let symbolTable = {
+let charTable = {
   "!": 'exclamation',
   "?": 'question',
   "+": "heavy_plus_sign",
@@ -13,24 +13,23 @@ let symbolTable = {
 };
 
 exports.convert = (input) => {
-  input = input.toLowerCase();
+  input = [...input.toLowerCase()];
   let finalString = '';
   for (let i = 0; i < input.length; i++) {
-    let rawCharacter = input.substring(i, i+1);
+    let rawChar = input[i];
     let emojiText = '';
-    if (rawCharacter.match(/[a-z]/i)) {
-      emojiText = `regional_indicator_${rawCharacter}`;
-    } else if (rawCharacter.match(/[0-9]/i)) {
-      emojiText = `${num_words[parseInt(rawCharacter)]}`;
-    } else if (rawCharacter !== ' ') {
-      let symbol = symbolTable[rawCharacter];
+    if (rawChar.match(/[a-z]/i)) {
+      emojiText = `regional_indicator_${rawChar}`;
+    } else if (rawChar.match(/[0-9]/i)) {
+      emojiText = `${numWords[parseInt(rawChar)]}`;
+    } else if (rawChar !== ' ') {
+      let symbol = charTable[rawChar];
       if (!symbol) continue;
       emojiText = symbol;
     } else {
       finalString += `   `;
       continue;
     }
-
     finalString += `:${emojiText}: `;
   }
   return finalString.trimEnd()
