@@ -1,6 +1,6 @@
 {
   "name": "discord-emoji-convert",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A very simple text to emoji converter for Discord",
   "main": "index.js",
   "scripts": {
